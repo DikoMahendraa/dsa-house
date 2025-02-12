@@ -1,3 +1,4 @@
+import ServicesSection from "@/components/custom-digital";
 import JumbotronPrimary from "@/components/jumbotron-primary";
 import Navbar from "@/components/navbar";
 import OnlyForYou from "@/components/only-for-you";
@@ -12,7 +13,7 @@ export default function Home() {
       <ScaleSmart />
 
       <section className="bg-gradient-to-t bg-dark-100 py-20">
-        <section className="text-center flex flex-col items-center">
+        <section className="text-center flex flex-col items-center mb-20">
           <h1 className="text-6xl max-w-[780px] font-semibold text-white">
             Custom Digital Solutions for Your Business
           </h1>
@@ -21,6 +22,7 @@ export default function Home() {
             your business thrive in the digital era
           </p>
         </section>
+        <ServicesSection />
       </section>
     </section>
   );
